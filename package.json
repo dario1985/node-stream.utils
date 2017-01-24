@@ -1,0 +1,19 @@
+{
+  "name": "stream.utils",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "lib/index",
+  "dependencies": {
+    "async.map": "^0.5.x"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha",
+    "test:coverage": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.1.0",
+    "streamtest": "^1.2.2"
+  }
+}
